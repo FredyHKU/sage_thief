@@ -128,6 +128,9 @@ reconstructed_out/    # （解析端）最终恢复的文件及解压目录
 3. **极大文件**  
    单个二维码极限容量约 4200 字符（L 级纠错，version 40）。建议保持在 2 k 字符左右，以提升扫码成功率。
 
+拍照样例：
+![6d7328929332effb80a503766c10186](https://github.com/user-attachments/assets/f521415a-5d9a-448e-9a3a-5bf2f73616ca)
+
 ---
 
 ## 六、脚本工作流程（协议简述）
