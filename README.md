@@ -10,7 +10,7 @@
 整个过程无需 U 盘、蓝牙或任何网络连接。
 
 ```
-┌── 公司电脑 ──┐                     ┌── 私人电脑 ──┐
+┌── 受限电脑 ──┐                     ┌── 私人电脑 ──┐
 │ compress_V2  │  →  拍照 / 发送原图  →  │ parse_V2     │
 └──────────────┘                     └──────────────┘
 ```
@@ -33,7 +33,7 @@ project/
 <summary>办公电脑（只需 qrcode / pyzbar）</summary>
 
 ```bash
-# 推荐清华镜像，规避公司源限制
+# 推荐清华镜像，规避受限源限制
 pip install "qrcode[pil]" pyzbar \
     -i http://pypi.tuna.tsinghua.edu.cn/simple \
     --trusted-host pypi.tuna.tsinghua.edu.cn
